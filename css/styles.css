@@ -165,10 +165,10 @@ img {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 200px;
-  padding-bottom: 200px;
 }
 .hero {
+  padding-top: 200px;
+  padding-bottom: 200px;
   text-align: center;
   color: rgba(255, 255, 255, 1);
   background-repeat: no-repeat;
@@ -209,9 +209,6 @@ img {
 
 .features {
   text-align: left;
-}
-
-.features .container {
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -259,11 +256,9 @@ img {
 
 .scope {
   text-align: center;
-}
-
-.scope .container {
   padding-bottom: 94px;
 }
+
 .scope-title {
   font-size: 36px;
   font-weight: 700;
@@ -280,14 +275,11 @@ img {
 /*=== Team ===*/
 
 .team {
+  padding-top: 94px;
+  padding-bottom: 94px;
   text-align: center;
   font-size: 16px;
   background-color: rgba(245, 244, 250, 1);
-}
-
-.team .container {
-  padding-top: 94px;
-  padding-bottom: 94px;
 }
 
 .team-title {
@@ -362,11 +354,9 @@ img {
 
 /*=== Clients ===*/
 
-.clients .container {
+.clients {
   padding-top: 94px;
   padding-bottom: 94px;
-}
-.clients {
   text-align: center;
 }
 
@@ -409,13 +399,13 @@ img {
   background-color: rgba(47, 48, 58, 1);
   font-family: var(--main-font);
   text-align: left;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .footer .container {
   display: flex;
   align-items: baseline;
-  padding-top: 60px;
-  padding-bottom: 60px;
 }
 
 .footer-left {
@@ -502,9 +492,6 @@ img {
 /*===Portfolio===*/
 .portfolio {
   font-family: var(--main-font);
-}
-
-.portfolio .container {
   padding-top: 82px;
   padding-bottom: 106px;
 }
